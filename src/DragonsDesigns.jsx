@@ -31,7 +31,7 @@ const DragonsDesigns = () => {
                   e.currentTarget.style.display = "none";
                 }}
               />
-              <span className="text-xl md:text-2xl font-extrabold">Dragon's Designs</span>
+              <span className="text-xl md:text-2xl font-extrabold">Aussie Designs</span>
             </div>
 
             <div className="hidden md:flex items-center space-x-6">
@@ -78,7 +78,7 @@ const DragonsDesigns = () => {
               </h2>
 
               <p className="mt-8 text-gray-300 text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
-                Dragon's Designs is a dedicated design studio which creates designs related to ER:LC (we do not work for
+                Aussie Designs is a dedicated design studio which creates designs related to ER:LC (we do not work for
                 ER:LC) focused on creating high-quality, custom visual experiences. Whether you need branding, web design,
                 or creative solutions, we deliver advanced, reliable designs tailored exactly to your vision and needs.
               </p>
@@ -88,7 +88,7 @@ const DragonsDesigns = () => {
               <div className="max-w-3xl mx-auto text-center">
                 <h3 className="text-3xl md:text-4xl font-extrabold mb-6">Why choose us?</h3>
                 <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-                  At Dragon's Designs, we create custom designs tailored to your exact needs—no generic templates. We
+                  At Aussie Designs, we create custom designs tailored to your exact needs—no generic templates. We
                   offer affordable pricing, maintain positive communication, and prioritize your order to ensure a
                   seamless experience from concept to completion.
                 </p>
@@ -97,101 +97,96 @@ const DragonsDesigns = () => {
           </section>
         )}
 
-        {/* PRICES */}
+       {/* PRICING SECTION */}
         {activeSection === "prices" && (
           <section className="min-h-screen px-6 py-20">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
+              <h2 className="text-5xl font-extrabold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
                 Pricing
               </h2>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
-                {/* Row 1 */}
+              {/* FIRST ROW */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
                 <div className="card-surface">
                   <h4 className="text-2xl font-bold mb-4">Liveries</h4>
                   <ul className="text-gray-300 space-y-3">
-                    <li><strong>Law Enforcement:</strong><div className="ml-3 mt-1">• 160+ Robux per livery</div></li>
-                    <li><strong>Fire Department:</strong><div className="ml-3 mt-1">• 200+ Robux per livery</div></li>
-                    <li><strong>Department of Transportation:</strong><div className="ml-3 mt-1">• 100+ Robux per livery</div></li>
-                    <li><strong>Server Staff:</strong><div className="ml-3 mt-1">• 220+ Robux per livery</div></li>
-                    <li><strong>Job/Miscellaneous:</strong><div className="ml-3 mt-1">• 150+ Robux per livery</div></li>
+                    <li>• 150R+</li>
                   </ul>
                 </div>
 
                 <div className="card-surface">
                   <h4 className="text-2xl font-bold mb-4">Clothing</h4>
                   <ul className="text-gray-300 space-y-3">
-                    <li><strong>Shirts:</strong><div className="ml-3 mt-1">• 80+ Robux per shirt</div></li>
-                    <li><strong>Pants:</strong><div className="ml-3 mt-1">• 50+ Robux per pant</div></li>
-                    <li><strong>Bundle (1 Shirt + 1 Pant):</strong><div className="ml-3 mt-1">• 130+ Robux per bundle</div></li>
+                    <li>• 45R+</li>
                   </ul>
                 </div>
 
                 <div className="card-surface">
-                  <h4 className="text-2xl font-bold mb-4">Photography</h4>
-                  <ul className="text-gray-300 space-y-3">
-                    <li><strong>Raw Photo:</strong><div className="ml-3 mt-1">• 50+ Robux per photo</div></li>
-                    <li><strong>Edited Photo:</strong><div className="ml-3 mt-1">• 100+ Robux per photo</div></li>
-                    <li><strong>Photo Bundle (5 fully edited photos):</strong><div className="ml-3 mt-1">• 420+ Robux per bundle</div></li>
+                  <h4 className="text-2xl font-bold mb-4">Graphics</h4>
+                  <ul className="text-gray-300 space-y-4">
+                    <li>
+                      <strong>GFX:</strong>
+                      <div className="ml-3">• 200R+</div>
+                    </li>
+                    <li>
+                      <strong>Logos & Banners:</strong>
+                      <div className="ml-3">• 80R+</div>
+                    </li>
                   </ul>
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
-                {/* Row 2 */}
+              {/* SECOND ROW */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                 <div className="card-surface">
                   <h4 className="text-2xl font-bold mb-4">ELS</h4>
                   <ul className="text-gray-300 space-y-3">
-                    <li><strong>One Stage:</strong><div className="ml-3 mt-1">• 80+ Robux per stage</div></li>
-                    <li><strong>Two Stages:</strong><div className="ml-3 mt-1">• 140+ Robux per bundle</div></li>
-                    <li><strong>Three Stages:</strong><div className="ml-3 mt-1">• 200+ Robux per bundle</div></li>
+                    <li>• 40R+</li>
                   </ul>
                 </div>
 
-                <div className="card-surface">
-                  <h4 className="text-2xl font-bold mb-4">Graphic Design</h4>
-                  <ul className="text-gray-300 space-y-3">
-                    <li><strong>Logo:</strong><div className="ml-3 mt-1">• 150+ Robux per logo</div></li>
-                    <li><strong>Banner:</strong><div className="ml-3 mt-1">• 80+ Robux per banner</div></li>
-                    <li><strong>GFX:</strong><div className="ml-3 mt-1">• 300+ Robux per GFX</div></li>
-                    <li><strong>Role Icons:</strong><div className="ml-3 mt-1">• 20+ Robux per role icon</div></li>
-                  </ul>
-                </div>
-
-                <div className="card-surface">
-                  <h4 className="text-2xl font-bold mb-4">Videography</h4>
-                  <ul className="text-gray-300 space-y-3">
-                    <li><strong>Server Trailer:</strong><div className="ml-3 mt-1">• 2000+ Robux per trailer</div></li>
-                    <li><strong>Short Film:</strong><div className="ml-3 mt-1">• 1000+ Robux per film</div></li>
-                    <li><strong>Small Skit:</strong><div className="ml-3 mt-1">• 500+ Robux per skit</div></li>
-                  </ul>
-                </div>
-              </div>
-
-              {/* extra two boxes requested, displayed below second row */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                 <div className="card-surface">
                   <h4 className="text-2xl font-bold mb-4">Bot Development</h4>
-                  <ul className="text-gray-300 space-y-4">
-                    <li><strong>1 Command:</strong><div className="ml-3 mt-1">• 100+ Robux</div></li>
-                    <li><strong>5 Commands:</strong><div className="ml-3 mt-1">• 450+ Robux</div></li>
-                    <li><strong>10 Commands:</strong><div className="ml-3 mt-1">• 800+ Robux</div></li>
+                  <ul className="text-gray-300 space-y-3">
+                    <li>
+                      <strong>Per Command:</strong>
+                      <div className="ml-3">• 150R+</div>
+                    </li>
                   </ul>
                 </div>
 
                 <div className="card-surface">
                   <h4 className="text-2xl font-bold mb-4">Discord Server Making</h4>
-                  <ul className="text-gray-300 space-y-4">
-                    <li><strong>All Channels:</strong><div className="ml-3 mt-1">• 1000+ Robux per server</div></li>
-                    <li><strong>All Channels + Embeds:</strong><div className="ml-3 mt-1">• 1800+ Robux per server</div></li>
-                    <li><strong>Only Embeds:</strong><div className="ml-3 mt-1">• 850+ Robux per server</div></li>
+                  <ul className="text-gray-300 space-y-3">
+                    <li>• 250R+</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* THIRD ROW — Videography */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
+                <div className="card-surface">
+                  <h4 className="text-2xl font-bold mb-4">Videography</h4>
+                  <ul className="text-gray-300 space-y-3">
+                    <li>
+                      <strong>Server Trailer:</strong>
+                      <div className="ml-3">• 2000+ Robux</div>
+                    </li>
+                    <li>
+                      <strong>Short Film:</strong>
+                      <div className="ml-3">• 1000+ Robux</div>
+                    </li>
+                    <li>
+                      <strong>Small Skit:</strong>
+                      <div className="ml-3">• 500+ Robux</div>
+                    </li>
                   </ul>
                 </div>
               </div>
             </div>
           </section>
         )}
-
+      
         {/* TERMS */}
         {activeSection === "terms" && (
           <section className="px-6 py-20">
@@ -202,7 +197,7 @@ const DragonsDesigns = () => {
 
               <p className="text-gray-300 leading-relaxed mb-8">
                 These Terms of Service ("Terms") govern your access to and use of products, services, and digital materials
-                provided by Dragon's Designs ("Dragon's Designs", "we", "us", "our"). By requesting or using any services from
+                provided by Aussie Designs ("Aussie Designs", "we", "us", "our"). By requesting or using any services from
                 us, you agree to comply with these Terms. If you do not accept any part of these Terms, you may not access or
                 use our services.
               </p>
@@ -252,7 +247,7 @@ const DragonsDesigns = () => {
               <div className="card-surface mb-8">
                 <ul className="text-gray-300 space-y-4 list-disc ml-5">
                   <li>
-                    Here you would find the Designer Application for our design server. We do not pay in real money, nor would you get weekly Robux. You only get paid when you create designs, and from which Dragon's Designs would take a percentage of the payment.
+                    Here you would find the Designer Application for our design server. We do not pay in real money, nor would you get weekly Robux. You only get paid when you create designs, and from which Aussie Designs would take a percentage of the payment.
                   </li>
                   <li>
                     Note that you are not an employee, you are designing by your own will. We would try our best to pay you (in Robux) if you make designs, but if we are not able to pay you, you will have to wait and cannot do anything about it and cannot take any action against us.
@@ -263,7 +258,7 @@ const DragonsDesigns = () => {
 
               <div className="flex justify-center">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScqP1tmihJXGlQ6DveMvzlwcfK4w1CUjfdkC7i5tuk00eY3kw/viewform?usp=publish-editor"
+                  href="https://discord.com/channels/1373797099472425000/1434670859221471434"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-full text-white font-semibold text-lg transform hover:scale-105 shadow-lg"
@@ -278,7 +273,7 @@ const DragonsDesigns = () => {
 
             {/* Discord fixed button (bottom-left) */}
       <a
-        href="https://discord.gg/7R4bvmuYfq"
+        href="https://discord.gg/tShP8j4CMb"
         target="_blank"
         rel="noopener noreferrer"
         className="discord-fixed"
@@ -293,7 +288,7 @@ const DragonsDesigns = () => {
           className="w-6 h-6 shrink-0"
           aria-hidden="true"
         >
-          <path d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.4156C45.5603 0.3981 45.468 0.4408 45.4204 0.5257C44.7963 1.6352 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0587 26.1886 1.6352 25.5617 0.5257C25.5141 0.4434 25.4218 0.4007 25.3294 0.4156C20.2584 1.2889 15.4057 2.8187 10.8776 4.8978C10.8384 4.9141 10.8047 4.9427 10.7828 4.9795C1.57795 18.7309 -0.943561 32.1443 0.293462 45.3919C0.299006 45.4607 0.33594 45.525 0.391583 45.5643C6.45866 49.7804 12.3413 52.4885 18.1147 54.4792C18.2071 54.5112 18.3089 54.4739 18.3593 54.3915C19.7295 52.0872 20.9469 49.6699 21.9907 47.1723C22.0523 47.0239 21.9933 46.8529 21.8456 46.7877C19.7281 45.8648 17.7079 44.7391 15.8154 43.4228C15.6613 43.3135 15.646 43.0802 15.8085 42.9553C16.2123 42.6466 16.6162 42.3209 17.0073 41.9999C17.0751 41.9442 17.1714 41.9325 17.2473 41.9693C29.2558 47.6643 41.8354 47.6643 53.767 41.9693C53.8429 41.9299 53.9392 41.9416 54.0107 41.9973C54.4018 42.3182 54.8057 42.6466 55.2113 42.9553C55.3738 43.0802 55.3622 43.3135 55.2081 43.4228C53.3155 44.7548 51.2953 45.8648 49.1765 46.7849C49.0288 46.8502 48.9739 47.0239 49.0355 47.1723C50.0987 49.6672 51.3162 52.0845 52.6702 54.3888C52.7178 54.4739 52.8196 54.5112 52.912 54.4792C58.7072 52.4885 64.5898 49.7804 70.6569 45.5643C70.7153 45.525 70.749 45.4634 70.7545 45.3946C72.1747 30.0791 68.2147 16.7757 60.1968 4.9822C60.1776 4.9427 60.1438 4.9141 60.1045 4.8978ZM23.7259 37.3253C20.2276 37.3253 17.3451 34.1136 17.3451 30.1693C17.3451 26.225 20.1717 23.0133 23.7259 23.0133C27.308 23.0133 30.1626 26.2532 30.1064 30.1693C30.1064 34.1136 27.2799 37.3253 23.7259 37.3253ZM47.3178 37.3253C43.8196 37.3253 40.937 34.1136 40.937 30.1693C40.937 26.225 43.7636 23.0133 47.3178 23.0133C50.9 23.0133 53.7545 26.2532 53.6983 30.1693C53.6983 34.1136 50.9 37.3253 47.3178 37.3253Z" />
+          <path d="M60.1045 4.8978C55.5792 2.8214 50.6766 1.3562 45.5083 0.5847C45.4311 0.5726 45.3543 0.602 45.3073 0.6638C44.7332 1.4378 44.203 2.2451 43.7253 3.0821C38.9808 2.3603 34.1693 2.3603 29.4248 3.0821C28.947 2.2451 28.4168 1.4378 27.8427 0.6638C27.7957 0.602 27.7189 0.5726 27.6417 0.5847C22.4734 1.3562 17.5708 2.8214 13.0455 4.8978C12.9977 4.9195 12.9581 4.9561 12.9323 5.0033C3.828 18.9451 1.1956 32.5279 2.3929 46.0045C2.3975 46.0571 2.4192 46.107 2.4545 46.1461C7.458 51.4685 12.9503 55.1084 18.3609 57.6802C18.4412 57.7181 18.5345 57.6852 18.5805 57.6102C19.8816 55.4248 20.9275 53.1167 21.7062 50.7156C21.743 50.602 21.6873 50.4798 21.5791 50.4292C19.4856 49.4763 17.4931 48.2813 15.6353 46.8683C15.515 46.7757 15.5041 46.5959 15.6081 46.4848C15.9832 46.0941 16.3584 45.7034 16.709 45.3022C16.7745 45.2269 16.8833 45.2144 16.9626 45.2733C28.2148 53.393 42.788 53.393 54.0402 45.2733C54.1196 45.2144 54.2283 45.2269 54.2938 45.3022C54.6444 45.7034 55.0196 46.0941 55.3947 46.4848C55.4987 46.5959 55.4879 46.7757 55.3675 46.8683C53.5097 48.2813 51.5172 49.4763 49.4238 50.4292C49.3155 50.4798 49.2599 50.602 49.2967 50.7156C50.0754 53.1167 51.1213 55.4248 52.4224 57.6102C52.4685 57.6852 52.5617 57.7181 52.642 57.6802C58.0526 55.1084 63.545 51.4685 68.5485 46.1461C68.5838 46.107 68.6055 46.0571 68.6101 46.0045C70.0044 29.5361 66.3658 15.0248 60.1045 4.8978Z" />
         </svg>
         <span className="text-sm md:text-base">Join Our Discord</span>
       </a>
